@@ -1,0 +1,38 @@
+{
+  "name": "builtin-types",
+  "version": "1.0.0",
+  "description": "Aggregate of built-in types and",
+  "main": "builtin-types.js",
+  "scripts": {
+    "test": "(babel test/index.js > test/builtin-types-test.js) && tape test/builtin-types-test.js && babel-node `which tape` test/index.js",
+    "prepublish": "babel index.js > builtin-types.js",
+    "pretest": "npm run prepublish",
+    "posttest": "rm test/builtin-types-test.js"
+  },
+  "keywords": [
+    "object",
+    "inherit",
+    "prototypical",
+    "utility",
+    "proto",
+    "hierarchy",
+    "ancestors",
+    "grandparents",
+    "parents"
+  ],
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^4.6.6",
+    "tape": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/builtin-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/builtin-types/issues"
+  },
+  "homepage": "https://github.com/timoxley/builtin-types"
+}
+
