@@ -96,8 +96,8 @@ An Array of prototypes for the built-in types.
 ### types.factory(Type, ...args)
 
 A function that takes a built-in Type and will return a new instance
-of Type. Will forward any arguments you supply. Knows how to construct
-built-ins that require arguments.
+of Type. Will forward any arguments you supply. Normalizes `new` & default args
+requirements for you.
 
 ```js
 types.factory(String)  // creates a String
