@@ -1,4 +1,7 @@
+"use strict"
+
 // hand-picked from global names until we come up with a better solution
+
 const ALL_TYPE_NAMES = [
   'Error',
   'String',

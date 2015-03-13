@@ -11,14 +11,14 @@
   },
   "keywords": [
     "object",
-    "inherit",
-    "prototypical",
-    "utility",
-    "proto",
-    "hierarchy",
-    "ancestors",
-    "grandparents",
-    "parents"
+    "string",
+    "smoketest",
+    "type",
+    "prototypes",
+    "primitives",
+    "stdlib",
+    "global",
+    "smoke"
   ],
   "author": "Tim Oxley <secoif@gmail.com>",
   "license": "ISC",
@@ -33,6 +33,12 @@
   "bugs": {
     "url": "https://github.com/timoxley/builtin-types/issues"
   },
-  "homepage": "https://github.com/timoxley/builtin-types"
+  "homepage": "https://github.com/timoxley/builtin-types",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^3.5.0",
+    "babel": "^4.7.9"
+  }
 }
-

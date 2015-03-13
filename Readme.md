@@ -1,22 +1,32 @@
 # builtin-types
 
-Aggregate of built-in Types e.g. String, Object, Array, etc. in
-various forms. A building block for creating smoketesting tools.
+Collection of JavaScript's built-in Types e.g. String, Object, Array,
+etc. in various forms. A building block for creating JavaScript smoketesting
+tools.
 
-Provides:
-* All types as functions
-* All types as basic instances
-* Prototypes
-* Factory functions for each type (normalizes `new` & default args requirements)
+#### Provides
+
+* All built-in types as functions
+* All built-in types as basic instances
+* Built-in types' Prototypes
+* Factory functions for each type (normalizes `new` & default args
+  requirements)
 * + more
 
-Excludes types which are not suppored in current environment e.g. Promises won't appear in older versions of node.
+Excludes types which are not suppored in current environment e.g.
+Promises won't appear in older versions of node.
 
 ## Why
 
 Smoketesting an API requires seeing what it will do in various
 scenarios. A good starting point is seeing how it performs
 when it's up against all the various builtin datatypes.
+
+## Installation
+
+```
+npm install builtin-types
+```
 
 ## API
 
@@ -26,7 +36,7 @@ The default export is an Array of all the Type functions.
 
 ```js
 
-import types from 'builtin-types'
+var types = require('builtin-types')
 
 console.log(types.length) // => 27
 console.log(types)
