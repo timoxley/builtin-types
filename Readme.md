@@ -1,8 +1,8 @@
 # builtin-types
 
-Collection of JavaScript's built-in Types e.g. String, Object, Array,
-etc. in various forms. A building block for JavaScript smoke-testing
-tools.
+Collection of JavaScript's built-in Types e.g. `String`, `Object`, `Array`, `RegExp`, `Promise`
+etc. in various forms e.g. `constructor`, `instance`, etc. **A building block for JavaScript smoke-testing
+tools.**
 
 #### Provides
 
