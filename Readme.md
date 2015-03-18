@@ -1,7 +1,7 @@
 # builtin-types
 
 Collection of JavaScript's built-in Types e.g. String, Object, Array,
-etc. in various forms. A building block for creating JavaScript smoketesting
+etc. in various forms. A building block for JavaScript smoke-testing
 tools.
 
 #### Provides
@@ -18,9 +18,9 @@ Promises won't appear in older versions of node.
 
 ## Why
 
-Smoketesting an API requires seeing what it will do in various
+Smoke-testing an API requires seeing what it will do in various
 scenarios. A good starting point is seeing how it performs
-when it's up against all the various builtin datatypes.
+when it's up against the various builtin datatypes.
 
 ## Installation
 
